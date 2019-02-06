@@ -14,7 +14,7 @@ Install the Alexa Skills Kit CLI<br>
 Initialize the ASK CLI<br>
 <code>ask init --no-browser</code>
 
-Create a new Alexa Skill<br>
+Create a new Alexa Skill; choose your preferred runtime and template here (the "Fact" template is simple) <br>
 <code>ask new --skill-name "my-new-skill"</code>
 
 Deploy your new skill<br>
@@ -24,7 +24,9 @@ ask deploy</code>
 Test your new skill (from within your skill's directory)<br>
 <code>ask dialog --locale "en-US"</code>
 
-Modify your skill's intent schema and Lambda funtion to taste<br>
+Modify your skill's intent schema and Lambda function to taste. 
+The intent schema is located in <skill-dir>/models/. The Lambda function
+is located in <skill-dir>/lambda/py<br> for Python-based skills.
 
 Deploy your modified skill<br>
 <code>ask deploy</code>
