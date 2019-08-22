@@ -2,7 +2,6 @@
 You can do this from macOS, Windows, or Cloud9 in AWS. 
 Tested with Node v6.1.3 and Python 3.6.6 on macOS 10.14.2, using AWS us-east-1.
 Make sure to create accounts on aws.amazon.com and developer.amazon.com.
-No promises on Windows-based systems (sorry)!
 
 Install and configure the AWS CLI<br>
 <code>pip install awscli</code><br>
@@ -18,8 +17,8 @@ Create a new Alexa Skill; choose your preferred runtime and template here (the "
 <code>ask new --skill-name "my-new-skill"</code>
 
 Deploy your new skill<br>
-<code>cd my-new-skill<br>
-ask deploy</code>
+<code>cd my-new-skill</code><br>&nbsp;</b>
+<code>ask deploy</code>
 
 Test your new skill (from within your skill's directory)<br>
 <code>ask dialog --locale "en-US"</code>
