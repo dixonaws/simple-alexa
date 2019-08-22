@@ -17,7 +17,7 @@ Create a new Alexa Skill; choose your preferred runtime and template here (the "
 <code>ask new --skill-name "my-new-skill"</code>
 
 Deploy your new skill<br>
-<code>cd my-new-skill</code><br>&nbsp;</b>
+<code>cd my-new-skill</code><br>
 <code>ask deploy</code>
 
 Test your new skill (from within your skill's directory)<br>
