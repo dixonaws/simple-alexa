@@ -1,4 +1,11 @@
 # The simplest way from 0 to Alexa
+In this walkthrough, we'll create a fully functional Alexa skill using the Alexa Skills Kit Command Line Interface. We'll make use of a pre-built template to stand up a skill and deploy it to an Amazon Echo device. You'll also be able to test the skill without a physical Echo device using the ASK-CLI or developer.amazon.com site.
+
+Here is what you will need to get started:
+1. An AWS account with permissions to create a Cloud9 environment, Lambda functions and obtain user IAM credentials
+2. An account on developer.amazon.com
+3. Optionally, an Amazon Echo device to test your skill
+
 You can do this from macOS, Windows, or Cloud9 in AWS. 
 Tested with Node v6.1.3 and Python 3.6.6 on macOS 10.14.2, using AWS us-east-1.
 Make sure to create accounts on aws.amazon.com and developer.amazon.com.
