@@ -36,8 +36,8 @@ Test your new skill (from within your skill's directory)<br>
 <code>ask dialog --locale "en-US"</code>
 
 Modify your skill's intent schema and Lambda function to taste. 
-The intent schema is located in <skill-dir>/models/. The Lambda function
-is located in <skill-dir>/lambda/py<br> for Python-based skills.
+The intent schema is located in <code><skill-dir>/models</code>. The Lambda function
+  is located in <code><skill-dir>/lambda/py</code><br> for Python-based skills.
 
 Deploy your modified skill<br>
 <code>ask deploy</code>
