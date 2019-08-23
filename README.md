@@ -24,9 +24,9 @@ Create a new Alexa Skill; choose your preferred runtime and template here (the "
 <code>ask new --skill-name "my-new-skill"</code>
 
 > If you are using Cloud9 and see an error regarding an invalid security token, perform the following steps to disable temporary credentials:<br>
-a. Run <code>aws configure</code> and enter the ACCESS_KEY_ID and SECRET_ACCESS_KEY for an IAM user with permissions to create Lambda functions.<br>
-b. Modify the ~/.aws/credentials file and ensure that it <i>does not</i> contain a SECURITY_TOKEN section.<br>
-c. Enter the Cloud9 configuration section by clicking on the gear icon in the upper right corner of the IDE. Select AWS Settings > Credentials and turn off "AWS managed temporary credentials."
+a. Enter the Cloud9 configuration section by clicking on the gear icon in the upper right corner of the IDE. Select AWS Settings > Credentials and turn off "AWS managed temporary credentials."
+b. Configure the AWS CLI with security credentials for an IAM user that has permissions to create Lambda functions. Run <code>aws configure</code> and enter the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.<br>
+c. Modify the ~/.aws/credentials file and ensure that it <i>does not</i> contain a AWS_SESSION_TOKEN section.<br>
 
 Deploy your new skill<br>
 <code>cd my-new-skill</code><br>
