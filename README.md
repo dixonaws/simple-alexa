@@ -10,7 +10,7 @@ You can do this from macOS, Windows, or Cloud9 in AWS.
 Tested with Node v6.1.3 and Python 3.6.6 on macOS 10.14.2, using AWS us-east-1.
 Make sure to create accounts on aws.amazon.com and developer.amazon.com.
 
-Ensure you are using Node 8.1.2. When using NVM (Node Version Manager), simply issue the following command:
+Ensure you are using Node 8.1.2. When using NVM (Node Version Manager), simply issue the following command:<br>
 <code>nvm use v8.1.2</code>
 
 Install and configure the AWS CLI<br>
