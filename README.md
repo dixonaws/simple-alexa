@@ -15,7 +15,7 @@ Install and configure the AWS CLI<br>
 <code>aws configure</code>
 
 Install the Alexa Skills Kit CLI<br>
-<code>npm install -g ask-cli</code>
+<code>npm install -g ask-cli@1.5.2</code>
 
 Initialize the ASK CLI<br>
 <code>ask init --no-browser</code>
